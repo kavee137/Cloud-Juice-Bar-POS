@@ -111,7 +111,7 @@ Template you can copy/edit on the VM: `docs/env-template.sh`
 ### 5) Start with PM2
 
 ```bash
-pm2 start pm2/ecosystem.config.cjs
+pm2 start pm2/ecosystem.config.js
 pm2 monit
 pm2 save
 pm2 startup

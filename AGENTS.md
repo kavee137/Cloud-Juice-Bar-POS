@@ -58,7 +58,7 @@ This file is for agentic coding assistants working in this repository.
 ### PM2 (VM deployments)
 
 - Start all services on a VM:
-  - `pm2 start pm2/ecosystem.config.cjs`
+  - `pm2 start pm2/ecosystem.config.js`
 - View processes:
   - `pm2 monit`
 - Persist on reboot:

@@ -110,12 +110,12 @@ You can build the image from a "golden" VM, then create a disk image from it.
 From `/opt/app` on the VM:
 
 ```bash
-pm2 start pm2/ecosystem.config.cjs
+pm2 start pm2/ecosystem.config.js
 pm2 save
 pm2 startup
 ```
 
-Logs (as configured in `pm2/ecosystem.config.cjs`) go to `/opt/app/logs/*.log`.
+Logs (as configured in `pm2/ecosystem.config.js`) go to `/opt/app/logs/*.log`.
 
 Verify:
 
